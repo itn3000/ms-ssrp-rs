@@ -12,6 +12,10 @@ this is the crate which gets SQL Server instance information using SSRP.
 
 see [examples folder](./examples/)
 
+## Limitation
+
+currently, do not support CLNT_BCAST_EX(query instances of LAN) and CLNT_UCAST_DAC(query Dedicated Administrator Connection info).
+
 ## About SSRP
 
 see [Microsoft's Document](https://msdn.microsoft.com/en-us/library/cc219703.aspx)
