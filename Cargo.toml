@@ -1,0 +1,10 @@
+[package]
+name = "ssrp"
+version = "0.1.0"
+authors = ["itn3000 <itn3000@gmail.com>"]
+
+[dependencies]
+log = "0.3"
+
+[dev-dependencies]
+env_logger = "0.4"
